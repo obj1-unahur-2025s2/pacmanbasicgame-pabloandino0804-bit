@@ -62,3 +62,7 @@
 {"level":"info","message":"⌛ Validating pgmProgram.wpgm","timeElapsed":819,"timestamp":"2025-09-06T13:10:49.599Z"}
 {"level":"info","message":"⌛ Building environment","timeElapsed":2026,"timestamp":"2025-09-06T13:15:14.309Z"}
 {"level":"info","message":"⌛ Validating pgmProgram.wpgm","timeElapsed":2766,"timestamp":"2025-09-06T13:15:17.260Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mpgmProgram.pacmanGame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\Andrea\\Desktop\\Programacion con obj1\\pacmanbasicgame-pabloandino0804-bit\u001b[39m\u001b[23m","ok":true,"timeElapsed":7569,"timestamp":"2025-09-06T14:45:49.358Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed pgmProgram.pacmanGame on c:\\Users\\Andrea\\Desktop\\Programacion con obj1\\pacmanbasicgame-pabloandino0804-bit","timeElapsed":19974,"timestamp":"2025-09-06T14:46:01.757Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mpgmProgram.pacmanGame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\Andrea\\Desktop\\Programacion con obj1\\pacmanbasicgame-pabloandino0804-bit\u001b[39m\u001b[23m","ok":true,"timeElapsed":5216,"timestamp":"2025-09-06T14:47:25.623Z"}
+{"exitCode":"SIGHUP","level":"info","message":"👾 Game executed pgmProgram.pacmanGame on c:\\Users\\Andrea\\Desktop\\Programacion con obj1\\pacmanbasicgame-pabloandino0804-bit","timeElapsed":945951,"timestamp":"2025-09-06T15:03:06.377Z"}
