@@ -19,3 +19,7 @@
 {"level":"info","message":"⌛ Building environment","timeElapsed":679,"timestamp":"2025-09-06T14:34:58.768Z"}
 {"level":"info","message":"⌛ Validating example.wlk","timeElapsed":725,"timestamp":"2025-09-06T14:34:59.589Z"}
 {"level":"info","message":"⌛ Validating example.wlk","timeElapsed":926,"timestamp":"2025-09-06T14:35:00.573Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":1345,"timestamp":"2025-09-06T14:37:15.920Z"}
+{"level":"info","message":"⌛ Validating pgmProgram.wpgm","timeElapsed":765,"timestamp":"2025-09-06T14:37:17.054Z"}
+{"level":"info","message":"⌛ Building environment","timeElapsed":2548,"timestamp":"2025-09-06T14:37:20.455Z"}
+{"level":"info","message":"⌛ Validating pgmProgram.wpgm","timeElapsed":1163,"timestamp":"2025-09-06T14:37:22.151Z"}
