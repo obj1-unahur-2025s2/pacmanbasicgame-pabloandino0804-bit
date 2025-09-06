@@ -6,14 +6,19 @@ program pacmanGame {
 	game.title("Pacman!")
 	
 	// límites del juego
-	game.width(14)
-	game.height(8)
+	game.width(20)
+	game.height(10)
+	game.cellSize(50)
 	
 	// fondo
 	game.boardGround("pacmanBackground.jpg")
 	
 	// personaje principal
-	game.addVisualCharacter(pacman)
+	game.addVisual(pacman)
+	keyboard.w().onPressDo({pacman.position(pacman.position().up(1))})
+	keyboard.a().onPressDo({pacman.position(pacman.position().left(1))})
+	keyboard.d().onPressDo({pacman.position(pacman.position().right(1))})
+	keyboard.s().onPressDo({pacman.position(pacman.position().down(1))})
 
 	// rivales
 	const rivales = [new Rival(numero=1), new Rival(numero=2),new Rival(numero=3),new Rival(numero=4)]

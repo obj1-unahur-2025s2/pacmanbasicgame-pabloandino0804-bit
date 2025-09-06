@@ -1,7 +1,7 @@
 import wollok.game.*
 
 object pacman {
-	var property position = game.origin()
+	var property position = game.at(15,5)
 	var property image = "pacman.png"
 	var vidas = 3
 
@@ -61,4 +61,5 @@ class Rival {
 object cherry {
 	var property image = "cherry.png"
 	var property position = game.center()
+	
 }
