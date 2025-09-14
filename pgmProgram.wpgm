@@ -13,8 +13,11 @@ program pacmanGame {
 	game.boardGround("pacmanBackground.jpg")
 	
 	// personaje principal
-	game.addVisualCharacter(pacman)
-	
+	game.addVisual(pacman)
+	keyboard.w().onPressDo({pacman.moverseHaciaArriba()})
+	keyboard.a().onPressDo({pacman.moverseHaciaIzquierda()})
+	keyboard.d().onPressDo({pacman.moverseHaciaDerecha()})
+	keyboard.s().onPressDo({pacman.moverseHaciaAbajo()})
 
 	// rivales
 	const rivales = [new Rival(numero = 1), new Rival(numero = 2)]
