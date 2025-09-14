@@ -731,3 +731,4 @@
 {"level":"info","message":"⌛ Validating example.wlk","timeElapsed":2078,"timestamp":"2025-09-14T14:04:45.172Z"}
 {"level":"info","message":"⌛ Validating example.wlk","timeElapsed":2074,"timestamp":"2025-09-14T14:04:47.482Z"}
 {"exitCode":"SIGHUP","level":"info","message":"👾 Game executed pgmProgram.pacmanGame on c:\\Users\\Andrea\\Desktop\\Programacion con obj1\\pacmanbasicgame-pabloandino0804-bit","timeElapsed":129924,"timestamp":"2025-09-14T14:05:01.354Z"}
+{"level":"info","message":"🚀 Program executed \u001b[3m\u001b[34mpgmProgram.pacmanGame\u001b[39m\u001b[23m on \u001b[3m\u001b[34mc:\\Users\\Andrea\\Desktop\\Programacion con obj1\\pacmanbasicgame-pabloandino0804-bit\u001b[39m\u001b[23m","ok":true,"timeElapsed":4597,"timestamp":"2025-09-14T14:05:22.809Z"}
