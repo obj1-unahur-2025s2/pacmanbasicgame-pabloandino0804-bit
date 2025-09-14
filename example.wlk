@@ -30,7 +30,7 @@ object pacman {
 	}
 
 	method moverseHaciaIzquierda() {
-		if(self.position().y() == 0) {
+		if(self.position().x() == 0) {
 			self.position(game.at(game.width()-1,self.position().y()))
 		}
 		else {
@@ -39,7 +39,7 @@ object pacman {
 	}
 
 	method moverseHaciaDerecha() {
-		if(self.position().y() == game.width()-1) {
+		if(self.position().x() == game.width()-1) {
 			self.position(game.at(0,self.position().y()))
 		}
 		else {
