@@ -33,6 +33,9 @@ program pacmanGame {
 		})
 	}
 	
+	// cereza
+	game.addVisual(cherry)
+
 	// que arranque el juego!
 	game.start()
 	
