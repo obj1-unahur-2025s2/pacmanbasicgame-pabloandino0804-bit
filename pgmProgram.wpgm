@@ -15,11 +15,11 @@ program pacmanGame {
 	
 	// personaje principal
 	game.addVisual(pacman)
-	keyboard.w().onPressDo({pacman.position(pacman.position().up(1))})
-	keyboard.a().onPressDo({pacman.position(pacman.position().left(1))})
-	keyboard.d().onPressDo({pacman.position(pacman.position().right(1))})
-	keyboard.s().onPressDo({pacman.position(pacman.position().down(1))})
-
+	keyboard.w().onPressDo({pacman.moverseHaciaArriba()})
+	keyboard.a().onPressDo({pacman.moverseHaciaIzquierda()})
+	keyboard.d().onPressDo({pacman.moverseHaciaDerecha()})
+	keyboard.s().onPressDo({pacman.moverseHaciaAbajo()})
+	
 	// rivales
 	const rivales = [new Rival(numero=1), new Rival(numero=2),new Rival(numero=3),new Rival(numero=4)]
 	
