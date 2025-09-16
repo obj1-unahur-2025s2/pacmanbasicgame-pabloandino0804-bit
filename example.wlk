@@ -4,6 +4,7 @@ object pacman {
 	var property position = game.origin()
 	var vidas = 3
 
+	method vidas() = vidas
 	method perderVida() {
 		vidas = vidas - 1
 		position = game.origin()	
@@ -59,4 +60,14 @@ class Rival {
 	method image() = "rival" + numero.toString() + ".png"
 
 	method position() = game.at(numero + 1, numero + 1)
+}
+
+object fantasmaRojo {
+	method position() = game.at(3,3)
+	method image() = "rival1.png"
+}
+
+object fantasmaAzul {
+	method position() = game.at(5,6)
+	method image() = "rival2.png"
 }
